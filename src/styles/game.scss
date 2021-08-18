@@ -1,0 +1,31 @@
+.game-window {
+  flex-grow: 1;
+  background: linear-gradient(0deg, #faf2c3 0%, #d3cbb8 100%);
+  position: relative;
+  overflow-y: hidden;
+  padding: 0 5em;
+}
+
+img {
+  opacity: 1;
+  position: absolute;
+  top: -12em;
+  user-select: none;
+  transition: top 1s ease 0s;
+  animation: sway 4s infinite;
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(1em);
+  }
+  60% {
+    transform: translateX(-1em);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "indeed-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "prettier": "prettier --write src/",
+    "build": "parcel build src/index.html --dist-dir ./build/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-beta.3.1",
+    "@parcel/transformer-sass": "2.0.0-beta.3.1",
+    "eslint": "^7.31.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "parcel": "^2.0.0-beta.3.1",
+    "prettier": "^2.3.2",
+    "sass": "^1.36.0"
+  }
+}
